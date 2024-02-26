@@ -1,0 +1,13 @@
+workspace = { members = ["newsapi"] }
+[package]
+name = "cli_news"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.27.0"
+dotenv = "0.15.0"
+newsapi = {path = "./newsapi"}
+termimad = "0.29.1"
